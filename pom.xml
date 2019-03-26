@@ -80,23 +80,8 @@
 					<appName>timesheet</appName>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>com.heroku.sdk</groupId>
-				<artifactId>heroku-maven-plugin</artifactId>
-				<configuration>
-				  <appName>timesheet-java-api</appName>
-					
-					<processTypes>
-						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
-					</processTypes>
-				</configuration>
-		
-
-
-			</plugin>
+			
 		</plugins>
 	</build>
-
-
 
 </project>
