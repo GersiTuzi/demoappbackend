@@ -13,7 +13,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>Timesheet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Timesheet</name>
+	<name>timesheet-java-api</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -77,7 +77,7 @@
 				<version>2.0.7</version>
 
 				<configuration>
-					<appName>timesheet</appName>
+					<appName>timesheet-java-api</appName>
 				</configuration>
 			</plugin>
 			
